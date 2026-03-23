@@ -499,6 +499,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -803,8 +1103,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 173.99 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30055e79-96b5-4a2a-ac4f-7e30b1634142")
+	)
+	(junction
+		(at 179.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "500b0060-65bb-4279-b438-81bae61708ac")
+	)
+	(junction
+		(at 120.65 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c1a1e9-5c5f-459f-94cc-8dda908fd7b2")
+	)
+	(junction
+		(at 116.84 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d32c2d9a-fee6-4f3a-82fa-e7c9e5b2933e")
+	)
 	(no_connect
-		(at 165.1 77.47)
+		(at 125.73 76.2)
 		(uuid "38f8a2b3-dd0b-4f1a-a1f5-919df0d1adbd")
 	)
 	(no_connect
@@ -812,7 +1136,7 @@
 		(uuid "7d85742c-20dd-4636-a95c-926438c03771")
 	)
 	(no_connect
-		(at 165.1 95.25)
+		(at 125.73 93.98)
 		(uuid "942fb163-873a-4266-8083-07b91f57d7a7")
 	)
 	(no_connect
@@ -820,7 +1144,7 @@
 		(uuid "96d024ec-db4f-4cd9-8d03-9cbcf90ec109")
 	)
 	(no_connect
-		(at 165.1 86.36)
+		(at 125.73 85.09)
 		(uuid "9e043c20-fe3a-4496-93b9-a8dc2be0e5bc")
 	)
 	(no_connect
@@ -829,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 69.85) (xy 115.57 69.85)
+			(xy 63.5 66.04) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +1163,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 160.02 100.33)
+			(xy 116.84 39.37) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cdbb97-28de-4b3e-8ad4-e289971003b4")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +1183,87 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 92.71)
+			(xy 116.84 50.8) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19719d41-b7d4-45ce-bd98-d83c91a4f2cc")
+	)
+	(wire
+		(pts
+			(xy 116.84 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f31cc85-01c9-463a-8ac1-0e2173ccdbac")
+	)
+	(wire
+		(pts
+			(xy 173.99 69.85) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227f55b9-1015-4ab7-be7f-d5ec113ba04a")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2804134e-98af-4f7b-a79e-49164d9c1d1a")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d37833-403c-4f79-9069-8b339e812c12")
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 182.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362c9c74-c434-4965-8a82-4d09f3f882c7")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bad70b0-2bfb-47c4-b1ed-05697911ffda")
+	)
+	(wire
+		(pts
+			(xy 116.84 36.83) (xy 116.84 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da860ba-886a-4192-9dbb-a7ad5af9fd6b")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +1273,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 91.44)
+			(xy 173.99 62.23) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59418a00-6402-4fca-badb-35c91213638a")
+	)
+	(wire
+		(pts
+			(xy 179.07 69.85) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fdbb80-925b-41ba-8be7-5be6d266d057")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +1313,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 67.31) (xy 115.57 67.31)
+			(xy 182.88 69.85) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bf7a15-0052-4656-9fc5-fe5127f2316d")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 95.25) (xy 115.57 95.25)
+			(xy 63.5 91.44) (xy 68.58 91.44)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 115.57 92.71)
+			(xy 63.5 88.9) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +1363,27 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 110.49 69.85)
+			(xy 173.99 36.83) (xy 173.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa397a8-7741-4582-8b06-c3d9a2ca678a")
+	)
+	(wire
+		(pts
+			(xy 182.88 39.37) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c986e81-90a5-403a-bf25-10a05c3bdc56")
+	)
+	(wire
+		(pts
+			(xy 63.5 69.85) (xy 63.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +1393,27 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 110.49 95.25)
+			(xy 116.84 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a395df-5a00-432f-b6d1-152334683aff")
+	)
+	(wire
+		(pts
+			(xy 173.99 39.37) (xy 182.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c779d90d-6800-4c9f-8901-c9f7e971b669")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 63.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 160.02 82.55)
+			(xy 120.65 80.01) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +1443,37 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 63.5) (xy 110.49 67.31)
+			(xy 173.99 39.37) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd148bdc-b49b-4dc8-b424-3c72fd788557")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 125.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3fd121-a934-4e11-8d70-b95e3f1491d1")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 173.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb54d331-69d5-44e9-bb7b-ce447b492cf6")
+	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -967,9 +1481,19 @@
 		)
 		(uuid "fa6d2461-cd52-4272-8433-8717dca6674d")
 	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca9a2bd-616f-44d5-a055-a2dde3ae6f72")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 100.33 0)
+		(at 120.65 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -978,7 +1502,7 @@
 		(fields_autoplaced yes)
 		(uuid "00ef0037-4ff1-4c5b-b9e2-112f1c9a0875")
 		(property "Reference" "#PWR06"
-			(at 160.02 106.68 0)
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +1511,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 105.41 0)
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 100.33 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 100.33 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 100.33 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,42 +1557,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
-		(at 120.65 67.31 0)
+		(lib_id "Device:R")
+		(at 116.84 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "198b03d9-1f3c-413d-8a5d-566ff975e5a3")
-		(property "Reference" "J1"
-			(at 121.92 67.3099 0)
+		(uuid "0e78aa29-9acc-4c18-84db-be6c126997b7")
+		(property "Reference" "R1"
+			(at 113.538 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Power"
-			(at 121.92 69.8499 0)
+		(property "Value" "6R"
+			(at 113.538 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "uv_lib:power_pad"
-			(at 121.92 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 118.618 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 67.31 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1600,83 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 67.31 0)
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C3000793"
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7426d0bf-c2ee-4389-bb60-df289fe1d501")
+		)
+		(pin "2"
+			(uuid "9c6520bd-d3d7-40a2-b016-f2676e88c74d")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Female")
+		(at 73.66 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "198b03d9-1f3c-413d-8a5d-566ff975e5a3")
+		(property "Reference" "J1"
+			(at 74.93 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power"
+			(at 74.93 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "uv_lib:power_pad"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1700,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 160.02 86.36 90)
+		(at 120.65 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1110,7 +1709,7 @@
 		(fields_autoplaced yes)
 		(uuid "2071d24a-a234-4480-90e8-1420627de5e3")
 		(property "Reference" "D2"
-			(at 152.4 86.36 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1717,7 @@
 			)
 		)
 		(property "Value" "LED_Pad"
-			(at 154.94 86.36 0)
+			(at 115.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" "uv_lib:SMD3535-3P"
-			(at 160.02 86.36 0)
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 86.36 0)
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,16 +1742,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 86.36 0)
+		(property "Description" "Light emitting diode with pad"
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
-			(at 160.02 86.36 0)
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,70 +1773,6 @@
 			(project "uv_light_board"
 				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 160.02 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23d39829-c466-428a-aafe-f5b0b4baadb7")
-		(property "Reference" "#PWR05"
-			(at 160.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fb67c3b-765c-4a60-b716-a3b4568a53b7")
-		)
-		(instances
-			(project ""
-				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1370,7 +1906,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 160.02 95.25 90)
+		(at 120.65 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1379,7 +1915,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ab92f2-03d9-437b-945b-b57f66b89335")
 		(property "Reference" "D3"
-			(at 152.4 95.25 0)
+			(at 113.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1923,7 @@
 			)
 		)
 		(property "Value" "LED_Pad"
-			(at 154.94 95.25 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1931,7 @@
 			)
 		)
 		(property "Footprint" "uv_lib:SMD3535-3P"
-			(at 160.02 95.25 0)
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 95.25 0)
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,16 +1948,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 95.25 0)
+		(property "Description" "Light emitting diode with pad"
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
-			(at 160.02 95.25 0)
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1986,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 69.85 180)
+		(at 173.99 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1457,7 +1994,7 @@
 		(dnp no)
 		(uuid "396f9b35-3d60-407c-ab4a-6c4dee9059ae")
 		(property "Reference" "R2"
-			(at 175.768 68.58 0)
+			(at 170.688 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +2002,7 @@
 			)
 		)
 		(property "Value" "6R"
-			(at 175.768 71.12 0)
+			(at 170.688 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +2010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 180.848 69.85 90)
+			(at 175.768 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +2019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 69.85 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +2028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 69.85 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +2036,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C3000793"
-			(at 179.07 69.85 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,12 +2103,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode with pad"
 			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
@@ -1603,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 73.66 0)
+		(at 63.5 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1612,7 +2150,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a01f22e-b562-4e27-8aa8-93456b5874ad")
 		(property "Reference" "#PWR02"
-			(at 110.49 80.01 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +2159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 78.74 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +2167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 73.66 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 73.66 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +2185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 73.66 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,6 +2199,77 @@
 			(project ""
 				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 125.73 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5454c85b-eb63-459c-b9cb-7188fec620b4")
+		(property "Reference" "JP4"
+			(at 127 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 127 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31ab3eeb-e9a2-42ab-86fa-813d366e0012")
+		)
+		(pin "1"
+			(uuid "df31c37b-643a-4309-be77-406a855c293e")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -1710,12 +2319,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode with pad"
 			(at 179.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
@@ -1747,7 +2357,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 110.49 63.5 0)
+		(at 63.5 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1756,7 +2366,7 @@
 		(fields_autoplaced yes)
 		(uuid "603d7ed1-c5ab-4f52-b6b4-c2bb23afac66")
 		(property "Reference" "#PWR01"
-			(at 110.49 67.31 0)
+			(at 63.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +2375,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 110.49 58.42 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +2383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 63.5 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 63.5 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +2401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 63.5 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,8 +2421,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 116.84 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "657e9a8b-c332-4d7c-95d6-d185177377f7")
+		(property "Reference" "JP1"
+			(at 118.11 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 117.856 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a15f9a1-89a8-44ae-b18c-f90a1a96d00d")
+		)
+		(pin "2"
+			(uuid "729caba1-d3d9-4624-b9a5-060ab440b79f")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 179.07 66.04 0)
+		(at 173.99 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1820,7 +2500,7 @@
 		(dnp no)
 		(uuid "75a6fe1e-f323-4b50-8abe-70170b288137")
 		(property "Reference" "#PWR07"
-			(at 179.07 69.85 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2509,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 179.07 62.23 0)
+			(at 173.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 66.04 0)
+			(at 173.99 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +2526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 66.04 0)
+			(at 173.99 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +2535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 66.04 0)
+			(at 173.99 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 160.02 77.47 90)
+		(at 120.65 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1885,7 +2565,7 @@
 		(fields_autoplaced yes)
 		(uuid "760458cf-e2d8-4824-9332-0b4a01b81ebd")
 		(property "Reference" "D1"
-			(at 152.4 77.47 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +2573,7 @@
 			)
 		)
 		(property "Value" "LED_Pad"
-			(at 154.94 77.47 0)
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +2581,7 @@
 			)
 		)
 		(property "Footprint" "uv_lib:SMD3535-3P"
-			(at 160.02 77.47 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +2590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 77.47 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,16 +2598,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 77.47 0)
+		(property "Description" "Light emitting diode with pad"
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
-			(at 160.02 77.47 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,6 +2698,145 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 116.84 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b2f54a8-a010-4a1b-adc4-0eb55c295a62")
+		(property "Reference" "#PWR05"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cebde662-f9b5-4b0d-a5cb-810007cf7267")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fe2d505-da25-4b52-bead-7e7893c3dced")
+		(property "Reference" "R4"
+			(at 122.428 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 122.428 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 127.508 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C15120"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "197c39c9-6428-46b6-ae75-c3c9f21f2d68")
+		)
+		(pin "2"
+			(uuid "20129e11-88dd-460e-b369-6a90d4271037")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Pad")
 		(at 179.07 86.36 90)
 		(unit 1)
@@ -2060,12 +2880,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode with pad"
 			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLCPCB Part" "C2833503"
@@ -2097,7 +2918,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 110.49 88.9 0)
+		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2106,7 +2927,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e92d618-4505-4ce8-b1b0-6424010aa8d4")
 		(property "Reference" "#PWR03"
-			(at 110.49 92.71 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2936,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 110.49 83.82 0)
+			(at 63.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 88.9 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 88.9 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 88.9 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,17 +2982,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 69.85 180)
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 182.88 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "946f8f1d-dfd9-4c21-869c-fddb90268a82")
-		(property "Reference" "R1"
-			(at 162.56 68.5799 0)
+		(uuid "9217f12e-9536-4d18-9c21-0a9fd75e898c")
+		(property "Reference" "JP2"
+			(at 184.15 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,17 +3000,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6R"
-			(at 162.56 71.1199 0)
+		(property "Value" "Jumper_2_Open"
+			(at 184.15 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 161.798 69.85 90)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 69.85 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,33 +3028,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part" "C3000793"
-			(at 160.02 69.85 0)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "d8ab9673-c86b-4076-80fd-8b5b2f130249")
 		)
 		(pin "2"
-			(uuid "7052f261-8991-4bee-924f-75f4af1ebb28")
+			(uuid "f202f27e-5f56-4eaa-807e-7ed9438af621")
+		)
+		(pin "1"
+			(uuid "3a8969e9-f4ac-4ce9-a09b-461a311f0db5")
 		)
 		(instances
-			(project ""
+			(project "uv_light_board"
 				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
-					(reference "R1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2302,17 +3116,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 99.06 0)
+		(lib_id "Device:R")
+		(at 182.88 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4d3d85-5d08-4c1d-aada-6b1ff999c520")
-		(property "Reference" "#PWR04"
-			(at 110.49 105.41 0)
+		(uuid "96960d7b-5336-4f4f-a851-b59d0f696036")
+		(property "Reference" "R3"
+			(at 179.578 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 179.578 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 184.658 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,25 +3149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 99.06 0)
+		(property "Datasheet" "~"
+			(at 182.88 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +3159,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 99.06 0)
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C15120"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbd7cd8b-5196-4629-86b0-ae39cd1c2dc2")
+		)
+		(pin "2"
+			(uuid "0f89d2d3-2046-46fc-bd65-48caefbebdcf")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4d3d85-5d08-4c1d-aada-6b1ff999c520")
+		(property "Reference" "#PWR04"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,6 +3250,76 @@
 			(project ""
 				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 173.99 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b18087e2-6354-4de1-876d-c77a74b18144")
+		(property "Reference" "JP3"
+			(at 175.26 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 175.006 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85add06-ec9e-4352-aca3-4d9ea44033c5")
+		)
+		(pin "2"
+			(uuid "e3f015ea-73d1-4617-981f-89d680959dee")
+		)
+		(instances
+			(project "uv_light_board"
+				(path "/aa12186a-1b37-4e14-80c5-35c352f998e2"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -2433,7 +3392,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Female")
-		(at 120.65 92.71 0)
+		(at 73.66 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2441,7 +3400,7 @@
 		(dnp no)
 		(uuid "f24ea514-eecc-4d0a-b505-f5ac8326ecb0")
 		(property "Reference" "J2"
-			(at 121.92 92.7099 0)
+			(at 74.93 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +3409,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 121.92 95.2499 0)
+			(at 74.93 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +3418,7 @@
 			)
 		)
 		(property "Footprint" "uv_lib:power_pad"
-			(at 121.92 88.9 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +3426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 92.71 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +3435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 92.71 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
