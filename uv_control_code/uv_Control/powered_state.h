@@ -38,7 +38,7 @@ public:
       Serial.write(msg.c_str());
     }
 
-    digitalWrite(PWR_EN_PIN,HIGH);
+    analogWrite(PWR_EN_PIN,power_percentage);
   }
 
   virtual void KeyCallback(KeypadEvent key)
@@ -48,8 +48,8 @@ public:
       result = State::Result::FAILURE;
       next_state = STATE_WELCOME;
       output = 0;
-      digitalWrite(PWR_EN_PIN,LOW);
-    }\
+      analogWrite(PWR_EN_PIN,0);
+    }
   }
 
   virtual int GetOutput()
@@ -101,7 +101,7 @@ public:
       {
         result = State::Result::FAILURE;
         next_state = STATE_SAFETY_ERROR;
-        digitalWrite(PWR_EN_PIN,LOW);
+        analogWrite(PWR_EN_PIN,0);
         output = 0;
       }
 

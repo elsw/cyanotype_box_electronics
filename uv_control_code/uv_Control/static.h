@@ -13,8 +13,8 @@ enum StateNames
 #define BACK_KEY '*'
 #define CONFIRM_KEY '#'
 
-#define PWR_EN_PIN 2
-#define SAFETY_PIN 3
+#define PWR_EN_PIN 3
+#define SAFETY_PIN 2
 #define STATUS_LED_PIN 10
 #define SAFETY_LED_PIN A5
 
