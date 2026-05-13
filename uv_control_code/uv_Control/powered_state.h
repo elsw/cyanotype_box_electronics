@@ -3,6 +3,8 @@
 #include "static.h"
 #include "state.h"
 
+#define FIXED_POWER_PERCENTAGE 125
+
 class PoweredState : public State
 {
 public:
@@ -38,7 +40,8 @@ public:
       Serial.write(msg.c_str());
     }
 
-    analogWrite(PWR_EN_PIN,power_percentage);
+    //analogWrite(PWR_EN_PIN,power_percentage);
+    analogWrite(PWR_EN_PIN,FIXED_POWER_PERCENTAGE);
   }
 
   virtual void KeyCallback(KeypadEvent key)

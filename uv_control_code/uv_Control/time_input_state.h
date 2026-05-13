@@ -40,7 +40,7 @@ public:
     else if(key == CONFIRM_KEY)
     {
       result = Result::SUCCESS;
-      next_state = STATE_POWER_INPUT;
+      next_state = STATE_POWERED;//STATE_POWER_INPUT;
     }
     else
     {
