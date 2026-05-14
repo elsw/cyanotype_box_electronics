@@ -119,8 +119,8 @@ private:
   int output;
   bool done;
 
-  int total_seconds;
+  unsigned long total_seconds;
   int power_percentage;
   int last_seconds_left;
-  unsigned millis_left;
+  unsigned long millis_left;
 };
